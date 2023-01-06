@@ -21,6 +21,7 @@ body {
   background: linear-gradient(180deg, #000, #060606, #060606, #060606, #060606, #060606);
 }
 
+
 .backimgContainer img {
   position: absolute;
 }
@@ -141,4 +142,46 @@ section.conteudo {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+@media (max-height: 1075px) {
+  .backimgContainer{
+  height: 110%;
+  }
+  section.conteudo {
+  margin-top: 100px;
+  }
+  .textContent p {
+    margin-top: 38px;
+  }
+  .setaContainer {
+    margin-top: 38px;
+  }
+  .greenBar {
+    margin-top: 40px;
+  }
+  .social {
+    margin-top: 160px;
+  }
+}
+@media (max-height: 900px) {
+  .backimgContainer{
+  height: 120%;
+  }
+  section.conteudo {
+  margin-top: 100px;
+  }
+  .textContent p {
+    margin-top: 38px;
+  }
+  .setaContainer {
+    margin-top: 38px;
+  }
+  .greenBar {
+    margin-top: 40px;
+  }
+  .social {
+    margin-top: 160px;
+  }
 }
